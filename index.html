@@ -3,25 +3,49 @@
   <head>
     <meta charset="utf-8" />
     <meta name="description" content="My first website with MDL" />
-    <meta name="keywords" content="mths, ics2o" />
+    <meta name="keywords" content="mths, ics2o, MDL" />
     <meta name="author" content="Jaden Plugowsky" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.red-amber.min.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>MDL Website</title>
   </head>
   <body>
-    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
           <span class="mdl-layout-title">This is a header.</span>
         </div>
-    <p>This is my first website with MDL.</p>
-    <!-- Accent-colored raised button with ripple -->
-    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
-      Button
-    </button>
+      </header>
+      <main class="mdl-layout__content">
+        <br>
+        <div class="page-content">
+          This is my first website with MDL.
+        </div>
+        <br>
+        <br>
+        <div id="demand" class="page-content">
+          Enter the password.
+        </div>
+        <!-- Numeric Textfield -->
+        <form action="#">
+          <div class="mdl-textfield mdl-js-textfield">
+            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample2">
+            <label class="mdl-textfield__label" for="sample2">Password...</label>
+            <span class="mdl-textfield__error">Input is not a number!</span>
+          </div>
+        </form>
+        <br>
+        <!-- Accent-colored raised button with ripple -->
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+          Verify Password
+        </button>
+        <br>
+        <br>
+        <a href="./index2.html">Page 2</a>
+      </main>
+    </div>
   </body>
 </html>

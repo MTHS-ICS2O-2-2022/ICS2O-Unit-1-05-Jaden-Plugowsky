@@ -13,3 +13,35 @@
 body {
   background-color: orange;
 }
+
+a {
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+/* Includes everything except for the header. */
+.mdl-layout__content {
+  margin-left: 10px;
+}
+
+.page-content {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.mdl-layout__header-row {
+  justify-content: center;
+  padding: 20px;
+  margin-left: 0;
+}
+
+.mdl-layout-title {
+  font-size: 35px;
+}
+
+#demand {
+  text-align: left;
+}
